@@ -1,0 +1,8 @@
+{
+    "name": "panakour/oc-translate-plugin",
+    "description": "Helper for Rainlab.Translate plugin",
+    "type": "october-plugin",
+    "license": "MIT",
+    "homepage": "https://github.com/panakour/oc-translate-plugin",
+    "require": {}
+}
