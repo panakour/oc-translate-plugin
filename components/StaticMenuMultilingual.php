@@ -31,7 +31,8 @@ class StaticMenuMultilingual extends StaticMenu
     public function menuItems()
     {
         $code = $this->property('code');
-        $locale = App::getLocale();
+        $translator	= \RainLab\Translate\Classes\Translator::instance();
+		$locale	= $translator->getLocale();
         $this->setProperty('code', $code . '-' . $locale);
         return parent::menuItems();
     }
